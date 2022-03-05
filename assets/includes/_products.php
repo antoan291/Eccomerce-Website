@@ -83,7 +83,7 @@ foreach($product->getData() as $item):
                     <!-- order-details -->
                         <div id="order-details" class="font-rale d-flex flex-column text-dark">
                             <small>Delivery by : Mar 29  - Apr 1</small>
-                            <small>Sold by <a href="#">Daily Electronics </a>(4.5 out of 5 | 18,198 ratings)</small>
+                            <small>Sold by <a href="#">Opticx </a>(4.5 out of 5 | 18,198 ratings)</small>
                             <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Deliver to Customer - 424201</small>
                         </div>
                      <!-- !order-details -->
@@ -120,13 +120,13 @@ foreach($product->getData() as $item):
                             <h6 class="font-baloo">Size :</h6>
                             <div class="d-flex justify-content-between w-75">
                                 <div class="font-rubik border p-2">
-                                    <button class="btn p-0 font-size-14">4GB RAM</button>
+                                    <button class="btn p-0 font-size-14">Small</button>
                                 </div>
                                 <div class="font-rubik border p-2">
-                                    <button class="btn p-0 font-size-14">6GB RAM</button>
+                                    <button class="btn p-0 font-size-14">Medium</button>
                                 </div>
                                 <div class="font-rubik border p-2">
-                                    <button class="btn p-0 font-size-14">8GB RAM</button>
+                                    <button class="btn p-0 font-size-14">Big</button>
                                 </div>
                             </div>
                         </div>
@@ -147,155 +147,7 @@ foreach($product->getData() as $item):
 <!--   !product  -->
 
 
-  <!-- Top Sale -->
-  <section id="top-sale">
-    <div class="container py-5">
-      <h4 class="font-rubik font-size-20">Top Sale</h4>
-      <hr>
-      <!-- owl carousel -->
-        <div class="owl-carousel owl-theme">
-          <div class="item py-2">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/img/1.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Samsung Galaxy 10</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/img/2.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Readme Note 7</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/img/3.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Readme Note 7</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/img/6.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Samsung Galaxy 10</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2">
-            <div class="product font-rale">
-              <a href="#"><img src="../assets/img/1.png" alt="product1" class="img-fluid"></a>
-              <div class="text-center">
-                <h6>Readme Note 7</h6>
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <div class="price py-2">
-                  <span>$152</span>
-                </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2">
-            <div class="product font-rale">
-              <div class="d-flex flex-column">
-                <a href="#"><img src="../assets/img/1.png" class="img-fluid" alt="pro1"></a>
-                <div class="text-center">
-                  <h6>Readme Note 7</h6>
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
-                  </div>
-                  <div class="price py-2">
-                    <span>$122</span>
-                  </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item py-2">
-            <div class="product font-rale">
-              <div class="d-flex flex-column">
-                <a href="#"><img src="../assets/img/2.png" class="img-fluid" alt="pro1"></a>
-                <div class="text-center">
-                  <h6>Readme Note 7</h6>
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
-                  </div>
-                  <div class="price py-2">
-                    <span>$122</span>
-                  </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <!-- !owl carousel -->
-    </div>
-  </section>
-<!-- !Top Sale -->
+  
 
 <?php
   endif;
