@@ -62,5 +62,25 @@ class Cart{
         }
     }
 
-    
+//get item_id of shoping cart list
+public function getCartId($cartArray = null, $key = "item_id"){
+    if ($cartArray != null){
+        $cart_id = array_map(function ($value) use($key){
+            return $value[$key];
+        }, $cartArray);
+        return $cart_id;
+    }
 }
+  
+public function getSum($arr){
+    if(isset($arr)){
+        $sum = 0;
+        foreach ($arr as $item){
+            $sum += floatval($item[0]);
+        }
+        return sprintf('%.2f' , $sum);
+    }
+}
+
+
+ }

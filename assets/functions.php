@@ -16,3 +16,5 @@ $product = new Product($db);
 $product_shuffle = $product->getData();
 //cart
 $cart = new Cart($db);
+
+$in_cart = $cart->getCartId($product->getData('cart'));

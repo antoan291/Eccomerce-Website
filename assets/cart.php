@@ -6,6 +6,6 @@ include ('./includes/navbar.php');
 
 include ('./includes/_cart.php');
 
-include ('./includes/_new-products.php');
+include ('./includes/_top-sale.php');
 
 include ('footer.php'); 

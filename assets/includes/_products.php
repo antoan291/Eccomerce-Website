@@ -12,7 +12,7 @@ foreach($product->getData() as $item):
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="<?php echo $item['item_image']??"./img/products/1.png"?>" alt="product" class="img-fluid">
+                    <img src="<?php echo $item['item_image']?>" alt="product" class="img-fluid">
                     <div class="form-row pt-4 font-size-16 font-baloo">
                         <div class="col">
                             <button type="submit" class="btn btn-danger form-control">Proceed to Buy</button>
