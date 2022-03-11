@@ -1,2 +1,2 @@
 # Eccomerce-Website 
-Eccomerce-Website is not fineshed yet.
+Eccomerce-Website is not finished yet.
